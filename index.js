@@ -6,8 +6,10 @@ function writeCards(a, b){
     return newArray;
 }
 function countDown(n){
-    for(let i = 0; i <= n; i++){
-        console.log(i);
+    let i = n;
+    while(i <= 10 && i >= 0){
+        console.log(i--);
     }
 }
+countDown(10);
 
